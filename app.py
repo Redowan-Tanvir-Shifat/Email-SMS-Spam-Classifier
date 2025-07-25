@@ -3,11 +3,10 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
-from nltk.stem.porter import PorterStemmer
-
 # Download NLTK data (only needed once)
 nltk.download('punkt')
 nltk.download('stopwords')
+from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
 
