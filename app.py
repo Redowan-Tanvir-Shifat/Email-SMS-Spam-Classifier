@@ -4,7 +4,7 @@ import string
 from nltk.corpus import stopwords
 import nltk
 # Download NLTK data (only needed once)
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.data.path.append("/root/nltk_data")  # Add this line
 from nltk.stem.porter import PorterStemmer
